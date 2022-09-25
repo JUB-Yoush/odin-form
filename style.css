@@ -1,0 +1,36 @@
+
+
+.main-flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+    .sidebar-section{
+    
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .img-bg{
+        width: 600px; 
+        height:99vh; 
+        object-fit: cover;
+    }
+
+    .main-section{
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .form-header-section{
+            background-color: blue;
+        }
+
+        .form-fillout-section{
+            background-color: rebeccapurple;
+        }
+
+        .form-submission-section{
+            background-color: red;
+        }
