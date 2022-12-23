@@ -7,16 +7,36 @@
 
     .sidebar-section{
     
-        width: 50vw;
-        height: 50vh;
+        width: 25vw;
+        height: 100vh;
+        background-color: brown;
+        background-image:url("bg.jpg");
+        background-position: -900px;
     }
 
-    .img-bg{
-        width: 600px; 
-        height:99vh; 
+
+
+    .sidebar-bg{
+        width: 25vw; 
+        height:100vh; 
         object-fit: cover;
     }
 
+        .sidebar-header-div{
+            width: 25vw;
+            height: 10vh;
+            background-color: blueviolet;
+            margin-top: 25vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .sidebar-header{
+                font-size: 2rem;
+                text-align: center;
+                height: auto;
+            }
     .main-section{
         background-color: aqua;
         display: flex;
