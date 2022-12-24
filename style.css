@@ -1,4 +1,6 @@
-
+* {
+    font-family: 'Courier New', Courier, monospace
+}
 
 .main-flexbox{
     display: flex;
@@ -6,26 +8,21 @@
 }
 
     .sidebar-section{
-    
         width: 25vw;
         height: 100vh;
         background-color: brown;
         background-image:url("bg.jpg");
         background-position: -900px;
+        
     }
 
 
 
-    .sidebar-bg{
-        width: 25vw; 
-        height:100vh; 
-        object-fit: cover;
-    }
 
         .sidebar-header-div{
             width: 25vw;
             height: 10vh;
-            background-color: blueviolet;
+            background-color: rgba(96, 95, 94, 0.5);
             margin-top: 25vh;
             display: flex;
             justify-content: center;
@@ -36,21 +33,102 @@
                 font-size: 2rem;
                 text-align: center;
                 height: auto;
+                opacity: 100%;
             }
+
     .main-section{
-        background-color: aqua;
+        background-color: #F0E7D8;
         display: flex;
         flex-direction: column;
+        flex-grow: 3;
     }
 
         .form-header-section{
-            background-color: blue;
+            background-color:#F0E7D8 ;
+            height: 25vh;
+            display: flex;
+            margin-top: 128px;
+            margin-left: 128px;
+            flex-direction: column;
         }
+            .form-header{
+                font-size: 2rem;
+                margin-top: 3vh;
+                margin-left: 2vw;
+                text-align: left;
+            }
 
+            .header-p1{
+                width: 30vw;
+                margin: 2vw;
+                font-size: 1.3rem;
+            }
+            .header-p2{
+                width: 30vw;
+                margin-left: 2vw;
+                font-size:1.3rem;
+            }
         .form-fillout-section{
-            background-color: rebeccapurple;
+            background-color:#F0E7D8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-fillout{
+            background-color:#e2d8c6;
+            box-shadow: 8px,8px,black;
+            height: 24vh;
+            width: fit-content;
+            padding: 64px;
+            padding-top:16px;
+            padding-bottom: 24px;
+            display: flex;
+            flex-direction: column;
+        }
+            .fillout-header{
+                font-size: 1.6rem;
+                margin-top: 6px;
+                margin-left: 105px;
+                margin-bottom: 0px;
+            }
+
+            .form-list{
+                margin-top:16px ;
+                padding-right:40vw;
+                padding-left: 105px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+                .list-item{
+                    margin-top: 16px;
+                    margin-right: 16px;
+                    font-size: 1.2rem;
+                }
+        .form-submission-section{
+            background-color:#F0E7D8 ;
+            padding-left: 40px;
         }
 
-        .form-submission-section{
-            background-color: red;
-        }
+            .submission-button{
+                font-size: 1.4rem;
+                background-color: #E71D36;
+                margin-right: 64px;
+                margin-left: 128px;
+                margin-bottom: 16px;
+                margin-top: 32px;
+                width: 200px;
+                height: 50px;
+                padding:0;
+                border: none;
+                border-radius: 8px;
+            }
+            .submission-p{
+
+                margin: 8px;
+                margin-left:128px;
+            }
+                .login-anchor{
+                    color: #E71D36;
+
+                }

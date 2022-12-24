@@ -15,18 +15,30 @@
         <div class="sidebar-header-div">
         <h2 class="sidebar-header">Place, Japan.</h2>
         </div>
-
     </div>
-
     <div class = "main-section">
         <div class="form-header-section"> 
-            <p>form header section</p>
+        <p class="header-p1">This is not a real service! haven't you always wished to travel, immerse yourself in, and become one with that place in japan? Y'know... the one with the uhhh... uhhh...</p>
+        <p class="header-p2">Well now's your chance! Give me your info now!</p>
         </div>
-        <div class = "form-fillout">
-            <p>form content</p>
+        <div class = "form-fillout-section">
+            <div class="form-fillout">
+            <h2 class="fillout-header">Let's Do This!</h2>
+            <form action="post" method="post">
+                    <ul class="form-list">
+                        <li class="list-item"><label for="fname">First Name: </label><br><input type="text" id="fname" name="user_fname"></li>
+                        <li class="list-item"><label for="lname">Last Name: </label><br><input type="text" id="fname" name="user_lname"></li>
+                        <li class="list-item"><label for="email">Email: </label><br><input type="email" id="email" name="user_email"></li>
+                        <li class="list-item"><label for="phone">Phone Number: </label><br><input type="tel" name="user_tel" id="phone"></li>
+                        <li class="list-item"><label for="password">Password: </label><br><input type="password"></li>
+                        <li class="list-item"><label for="confirm-pass">Confirm Password: </label><br><input type="password"></li>
+                    </ul>
+            </form>     
+            </div>
         </div>
-        <div class = "form-submission">
-            <button>submit</button>
+        <div class = "form-submission-section">
+            <button type="submit" class="submission-button">sign up</button>
+            <p class="submission-p">Already have an account? You can<a class="login-anchor" href="login-page"> Log in</a> instead</p>
         </div>
     </div>
 
