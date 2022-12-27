@@ -8,7 +8,7 @@
 }
 
     .sidebar-section{
-        width: 25vw;
+        width: 30vw;
         height: 100vh;
         background-color: brown;
         background-image:url("bg.jpg");
@@ -20,7 +20,7 @@
 
 
         .sidebar-header-div{
-            width: 25vw;
+            width: 30vw;
             height: 10vh;
             background-color: rgba(96, 95, 94, 0.5);
             margin-top: 25vh;
@@ -36,6 +36,14 @@
                 opacity: 100%;
             }
 
+            .logo{
+                width: 8vh;
+                padding-right: 32px;
+            }
+        .credits{
+            margin-top: 600px;
+            background-color: rgba(96, 95, 94, 0.5);
+        }
     .main-section{
         background-color: #F0E7D8;
         display: flex;
@@ -94,7 +102,7 @@
 
             .form-list{
                 margin-top:16px ;
-                padding-right:40vw;
+                padding-right:30vw;
                 padding-left: 105px;
                 display: flex;
                 flex-wrap: wrap;
@@ -131,4 +139,7 @@
                 .login-anchor{
                     color: #E71D36;
 
+                }
+                .link{
+                    color:black
                 }
